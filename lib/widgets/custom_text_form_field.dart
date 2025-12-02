@@ -44,7 +44,7 @@ class _CustomTextFormFieldState extends State<CustomTextFormField> {
       valueListenable: _obscureNotifire,
       builder: (context, obscureValue, child) {
         return SizedBox(
-          height: AppSize.h_44,
+          // height: AppSize.h_44,
           child: TextFormField(
             controller: widget.controller,
             cursorColor: AppColors.primaryColor,

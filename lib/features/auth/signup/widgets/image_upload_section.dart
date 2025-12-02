@@ -8,8 +8,8 @@ import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:flutter_svg/svg.dart';
 import 'package:gap/gap.dart';
 
-class SelectFileContainer extends StatelessWidget {
-  const SelectFileContainer({super.key});
+class ImageUploadSection extends StatelessWidget {
+  const ImageUploadSection({super.key});
 
   @override
   Widget build(BuildContext context) {

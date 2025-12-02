@@ -1,6 +1,6 @@
 import 'package:animoo/core/routing/app_routs.dart';
-import 'package:animoo/screens/login_screen.dart';
-import 'package:animoo/screens/signup_screen.dart';
+import 'package:animoo/features/auth/login/screen/login_screen.dart';
+import 'package:animoo/features/auth/signup/screen/signup_screen.dart';
 import 'package:go_router/go_router.dart';
 
 class RouterGenareterConfig {
