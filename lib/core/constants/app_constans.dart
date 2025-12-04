@@ -18,7 +18,7 @@ class AppConstans {
   static final String hinitFirstNameText = "Enter your First Name";
   static final String hinitLastNameText = "Enter your Last Name";
   static final String hinitConfirmPasswordText = "********";
-  static final String forgetPasswordText = "Forget Password....?";
+  static final String askForgetPasswordText = "Forget Password....?";
   static final String askHaveAcountText = "Have an account already? ";
   static final String askDoNotHaveAcountText = "Don’t have an account? ";
   static final String signupNowText = " Sign up now";
@@ -30,4 +30,19 @@ class AppConstans {
   static final String passLowerText = "One lowercase character.";
   static final String passOneSpecialCharText = "One special character.";
   static final String passOneNumberText = "One number.";
+  static final String backText = "Back";
+  static final String forgetPasswordText = "Forget Your Password ?";
+
+  static final String enterYourEmailToCheckText =
+      "Please enter the email address associated with your account, and we'll send you OTP to reset your password.";
+  static final String sendCodeText = "Send  Code";
+  static final String cancelText = "Cancel";
+  static final String oTPVerficationText = "OTP Verfication";
+  static final String enter6NumberOTPText =
+      "Please enter the 4 digit code sent your phone number";
+  static final String confirmText = "Confirm";
+  static final String resendCodeText = "Resend Code In 00:59";
+  static final String createNewPasswordText = "Create New Password";
+  static final String newPasswordText = "New Password";
+  static final String submitText = "Submit";
 }

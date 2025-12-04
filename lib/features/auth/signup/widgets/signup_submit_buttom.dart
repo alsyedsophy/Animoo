@@ -20,9 +20,7 @@ class SignupSubmitButton extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return AnimatedBuilder(
-      animation: Listenable.merge(
-        allControllers.values.where((e) => e != null),
-      ),
+      animation: Listenable.merge(allControllers.values),
       builder: (context, child) {
         final firstName = allControllers['firstName']?.text.trim() ?? '';
         final lastName = allControllers['lastName']?.text.trim() ?? '';

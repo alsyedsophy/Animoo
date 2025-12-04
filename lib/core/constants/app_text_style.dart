@@ -55,4 +55,15 @@ class AppTextStyle {
     color: color,
     fontWeight: FontWeight.w600,
   );
+
+  static TextStyle backOrForgetOrOTPStyle = TextStyle(
+    fontFamily: AppAssetsFonts.fontOtamaEp,
+    fontSize: AppSize.s_18,
+    color: AppColors.primaryColor,
+  );
+  static TextStyle textUnderForgetOrOTPStyle = TextStyle(
+    fontSize: AppSize.s_14,
+    color: AppColors.grayColor,
+    fontWeight: FontWeight.w400,
+  );
 }
